@@ -193,28 +193,6 @@ img {
   margin-left: 50px;
 }
 
-.mail::before {
-  content: '';
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url('../images/envelope.svg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.phone::before {
-  content: '';
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-image: url('../images/smartphone.svg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
@@ -336,33 +314,6 @@ img {
 
 .feature-list .item {
   width: 270px;
-}
-
-.feature-list .item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  margin-bottom: 30px;
-
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-radar::before {
-  background-image: url('../images/Group.svg');
-}
-
-.icon-clock::before {
-  background-image: url('../images/clock.svg');
-}
-
-.icon-diagram::before {
-  background-image: url('../images/diagram.svg');
-}
-
-.icon-spaceman::before {
-  background-image: url('../images/astronaut.svg');
 }
 
 .feature-list .item:not(:last-child) {
