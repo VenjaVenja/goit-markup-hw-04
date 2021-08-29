@@ -30,8 +30,20 @@
       <li class="item"><a href="contacts.html" class="link">Контакты</a></li>
     </ul>
     <ul class="auth-nav list">
-      <li class="item"><a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a></li>
-      <li class="item"><a href="tel:+380961111111" class="link phone">+38 096 111 11 11</a></li>
+      <li class="item item-nav">
+        <a href="mailto:info@devstudio.com" class="link nav-link">
+          <svg class="icon-nav mail" width="16" height="12">
+            <use href="./images/sprite.svg#icon-email"></use>
+          </svg>
+          info@devstudio.com</a>
+      </li>
+      <li class="item item-nav">
+        <a href="tel:+380961111111" class="link">
+          <svg class="icon-nav phone" width="10" height="16">
+            <use href="./images/sprite.svg#icon-phone"></use>
+          </svg>
+          +38 096 111 11 11</a>
+      </li>
     </ul>
   </nav>
 </header>
@@ -139,19 +151,56 @@
  </main>
   <!--Подвал-->
   <footer class="footer">
-    <div class="container main-footer">
-      <div class="footer-logo">
-        <a href="index.html" class="logo"><span class="web">Web</span>Studio
-        </a>
+    <div class="container">
+      <div class="main-footer">
+        <div class="left-footer">
+          <div class="footer-logo">
+            <a href="index.html" class="logo"><span class="web">Web</span>Studio
+            </a>
+          </div>
+          <address>
+            <ul class="address-list">
+              <li class="item"><a href="https://goo.gl/maps/FcAPgfBcvbbnPMWw7" target="_blank" class="comp-address">г. Киев,
+                  пр-т Леси Украинки, 26</a></li>
+              <li class="item"><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+              <li class="item"><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="right-footer">
+          <h2 class="titel footer-contacts-titel">Присоединяйтесь</h2>
+          <ul class="socials-address list">
+            <li class="socials-address-item">
+              <a href="" class="socials-address-link link">
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-address-item">
+              <a href="" class="socials-address-link link">
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-address-item">
+              <a href="" class="socials-address-link link">
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-address-item">
+              <a href="" class="socials-address-link link">
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <address>
-        <ul class="address-list">
-          <li class="item"><a href="https://goo.gl/maps/FcAPgfBcvbbnPMWw7" target="_blank" class="comp-address">г. Киев,
-              пр-т Леси Украинки, 26</a></li>
-          <li class="item"><a href="mailto:info@example.com" class="link">info@example.com</a></li>
-          <li class="item"><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
     </div>
   </footer>
 </body>
